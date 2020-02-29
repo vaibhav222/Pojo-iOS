@@ -1,0 +1,6 @@
+framework module Pods_JaiHo {
+  umbrella header "Pods-JaiHo-umbrella.h"
+
+  export *
+  module * { export * }
+}

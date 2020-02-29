@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		66230E591AE448EE772CA81C /* Pods_JaiHo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C6BCEB8FBCB2DE6186B008B /* Pods_JaiHo.framework */; };
+		780815FA23FAE1970043C6A7 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 780815F923FAE1970043C6A7 /* CreateAccountVC.swift */; };
+		7818A2B32401AAAF00E00F93 /* MapViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7818A2B22401AAAF00E00F93 /* MapViewVC.swift */; };
+		785AAC2B23F14CC0000734A1 /* CustomSelectButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 785AAC2A23F14CC0000734A1 /* CustomSelectButton.swift */; };
+		789FB0C823EC4C2B004D5214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789FB0C723EC4C2B004D5214 /* AppDelegate.swift */; };
+		789FB0CA23EC4C2B004D5214 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789FB0C923EC4C2B004D5214 /* SceneDelegate.swift */; };
+		789FB0CC23EC4C2B004D5214 /* LandingPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 789FB0CB23EC4C2B004D5214 /* LandingPageController.swift */; };
+		789FB0CF23EC4C2B004D5214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789FB0CD23EC4C2B004D5214 /* Main.storyboard */; };
+		789FB0D223EC4C2B004D5214 /* JaiHo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 789FB0D023EC4C2B004D5214 /* JaiHo.xcdatamodeld */; };
+		789FB0D423EC4C2D004D5214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 789FB0D323EC4C2D004D5214 /* Assets.xcassets */; };
+		789FB0D723EC4C2D004D5214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 789FB0D523EC4C2D004D5214 /* LaunchScreen.storyboard */; };
+		78A02E6B23FD9CE0005AFA18 /* UIView+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78A02E6A23FD9CE0005AFA18 /* UIView+Extention.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C6BCEB8FBCB2DE6186B008B /* Pods_JaiHo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JaiHo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54244CC18EBF5EA5A3ACC7F5 /* Pods-JaiHo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaiHo.debug.xcconfig"; path = "Target Support Files/Pods-JaiHo/Pods-JaiHo.debug.xcconfig"; sourceTree = "<group>"; };
+		780815F923FAE1970043C6A7 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		7818A2B22401AAAF00E00F93 /* MapViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewVC.swift; sourceTree = "<group>"; };
+		785AAC2A23F14CC0000734A1 /* CustomSelectButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSelectButton.swift; sourceTree = "<group>"; };
+		789FB0C423EC4C2B004D5214 /* JaiHo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JaiHo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		789FB0C723EC4C2B004D5214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		789FB0C923EC4C2B004D5214 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		789FB0CB23EC4C2B004D5214 /* LandingPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingPageController.swift; sourceTree = "<group>"; };
+		789FB0CE23EC4C2B004D5214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		789FB0D123EC4C2B004D5214 /* JaiHo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JaiHo.xcdatamodel; sourceTree = "<group>"; };
+		789FB0D323EC4C2D004D5214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		789FB0D623EC4C2D004D5214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		789FB0D823EC4C2D004D5214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		78A02E6A23FD9CE0005AFA18 /* UIView+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extention.swift"; sourceTree = "<group>"; };
+		A7D626F028CC0784079C9ED0 /* Pods-JaiHo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JaiHo.release.xcconfig"; path = "Target Support Files/Pods-JaiHo/Pods-JaiHo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		789FB0C123EC4C2B004D5214 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66230E591AE448EE772CA81C /* Pods_JaiHo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5B58EB18278DF318FC8EB530 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54244CC18EBF5EA5A3ACC7F5 /* Pods-JaiHo.debug.xcconfig */,
+				A7D626F028CC0784079C9ED0 /* Pods-JaiHo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		74F637BBDB0745DBCDDC2FF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C6BCEB8FBCB2DE6186B008B /* Pods_JaiHo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		781B1BEF23F18B7200E61946 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				789FB0CB23EC4C2B004D5214 /* LandingPageController.swift */,
+				780815F923FAE1970043C6A7 /* CreateAccountVC.swift */,
+				7818A2B22401AAAF00E00F93 /* MapViewVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		785AAC2923F14C94000734A1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				785AAC2A23F14CC0000734A1 /* CustomSelectButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		789FB0BB23EC4C2B004D5214 = {
+			isa = PBXGroup;
+			children = (
+				789FB0C623EC4C2B004D5214 /* JaiHo */,
+				789FB0C523EC4C2B004D5214 /* Products */,
+				5B58EB18278DF318FC8EB530 /* Pods */,
+				74F637BBDB0745DBCDDC2FF4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		789FB0C523EC4C2B004D5214 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				789FB0C423EC4C2B004D5214 /* JaiHo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		789FB0C623EC4C2B004D5214 /* JaiHo */ = {
+			isa = PBXGroup;
+			children = (
+				78A02E6923FD9CC4005AFA18 /* Extention */,
+				781B1BEF23F18B7200E61946 /* Controllers */,
+				785AAC2923F14C94000734A1 /* Views */,
+				789FB0C723EC4C2B004D5214 /* AppDelegate.swift */,
+				789FB0C923EC4C2B004D5214 /* SceneDelegate.swift */,
+				789FB0CD23EC4C2B004D5214 /* Main.storyboard */,
+				789FB0D323EC4C2D004D5214 /* Assets.xcassets */,
+				789FB0D523EC4C2D004D5214 /* LaunchScreen.storyboard */,
+				789FB0D823EC4C2D004D5214 /* Info.plist */,
+				789FB0D023EC4C2B004D5214 /* JaiHo.xcdatamodeld */,
+			);
+			path = JaiHo;
+			sourceTree = "<group>";
+		};
+		78A02E6923FD9CC4005AFA18 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				78A02E6A23FD9CE0005AFA18 /* UIView+Extention.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		789FB0C323EC4C2B004D5214 /* JaiHo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 789FB0DB23EC4C2D004D5214 /* Build configuration list for PBXNativeTarget "JaiHo" */;
+			buildPhases = (
+				C02CC082BF8CE8DD80ED5FA9 /* [CP] Check Pods Manifest.lock */,
+				789FB0C023EC4C2B004D5214 /* Sources */,
+				789FB0C123EC4C2B004D5214 /* Frameworks */,
+				789FB0C223EC4C2B004D5214 /* Resources */,
+				53B0E48C80337D8BFC194929 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JaiHo;
+			productName = JaiHo;
+			productReference = 789FB0C423EC4C2B004D5214 /* JaiHo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		789FB0BC23EC4C2B004D5214 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = "Barchhiha, Vaibhav";
+				TargetAttributes = {
+					789FB0C323EC4C2B004D5214 = {
+						CreatedOnToolsVersion = 11.2;
+					};
+				};
+			};
+			buildConfigurationList = 789FB0BF23EC4C2B004D5214 /* Build configuration list for PBXProject "JaiHo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 789FB0BB23EC4C2B004D5214;
+			productRefGroup = 789FB0C523EC4C2B004D5214 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				789FB0C323EC4C2B004D5214 /* JaiHo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		789FB0C223EC4C2B004D5214 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				789FB0D723EC4C2D004D5214 /* LaunchScreen.storyboard in Resources */,
+				789FB0D423EC4C2D004D5214 /* Assets.xcassets in Resources */,
+				789FB0CF23EC4C2B004D5214 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		53B0E48C80337D8BFC194929 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JaiHo/Pods-JaiHo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-JaiHo/Pods-JaiHo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-JaiHo/Pods-JaiHo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C02CC082BF8CE8DD80ED5FA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JaiHo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		789FB0C023EC4C2B004D5214 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785AAC2B23F14CC0000734A1 /* CustomSelectButton.swift in Sources */,
+				780815FA23FAE1970043C6A7 /* CreateAccountVC.swift in Sources */,
+				789FB0CC23EC4C2B004D5214 /* LandingPageController.swift in Sources */,
+				78A02E6B23FD9CE0005AFA18 /* UIView+Extention.swift in Sources */,
+				7818A2B32401AAAF00E00F93 /* MapViewVC.swift in Sources */,
+				789FB0D223EC4C2B004D5214 /* JaiHo.xcdatamodeld in Sources */,
+				789FB0C823EC4C2B004D5214 /* AppDelegate.swift in Sources */,
+				789FB0CA23EC4C2B004D5214 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		789FB0CD23EC4C2B004D5214 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789FB0CE23EC4C2B004D5214 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		789FB0D523EC4C2D004D5214 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				789FB0D623EC4C2D004D5214 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		789FB0D923EC4C2D004D5214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		789FB0DA23EC4C2D004D5214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		789FB0DC23EC4C2D004D5214 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54244CC18EBF5EA5A3ACC7F5 /* Pods-JaiHo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JaiHo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaibhav.JaiHo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		789FB0DD23EC4C2D004D5214 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7D626F028CC0784079C9ED0 /* Pods-JaiHo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JaiHo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.vaibhav.JaiHo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		789FB0BF23EC4C2B004D5214 /* Build configuration list for PBXProject "JaiHo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789FB0D923EC4C2D004D5214 /* Debug */,
+				789FB0DA23EC4C2D004D5214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		789FB0DB23EC4C2D004D5214 /* Build configuration list for PBXNativeTarget "JaiHo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				789FB0DC23EC4C2D004D5214 /* Debug */,
+				789FB0DD23EC4C2D004D5214 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		789FB0D023EC4C2B004D5214 /* JaiHo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				789FB0D123EC4C2B004D5214 /* JaiHo.xcdatamodel */,
+			);
+			currentVersion = 789FB0D123EC4C2B004D5214 /* JaiHo.xcdatamodel */;
+			path = JaiHo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 789FB0BC23EC4C2B004D5214 /* Project object */;
+}
